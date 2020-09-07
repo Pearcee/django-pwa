@@ -1,0 +1,39 @@
+https://code.visualstudio.com/docs/python/tutorial-django
+
+(Ctrl+Shift+P)). Then select the Python: Select Interpreter 
+source env/bin/activate
+python -m venv env
+python -m pip install django
+django-admin startproject web_project .
+python manage.py runserver
+python manage.py startapp hello
+
+
+python -m pip install --upgrade pip
+
+
+
+#
+
+sudo apt-get install python3-venv    # If needed
+python3 -m venv env
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+python3 manage.py createsuperuser
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+pip install django-pwa
+
+pip install wagtail
+
+wagtail start mysite
+
+pip install -r requirements.txt
+./manage.py migrate
+./manage.py createsuperuser
+./manage.py runserver
