@@ -1,2 +1,3 @@
 # django-pwa
-# django-pwa
+
+pip install django
